@@ -4,7 +4,13 @@
     .dependencies = .{
         .spice = .{
             .url = "https://github.com/judofyr/spice/archive/refs/heads/main.tar.gz",
-            .hash = "12345", // Replace with actual hash after first build
+            .hash = "12207a3bcf418fd5e029f56f3c8049165cf07d758b89d499d36f8a6475d21b425ea2",
         },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
     },
 }
